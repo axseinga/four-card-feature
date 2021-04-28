@@ -51,8 +51,7 @@ body {
   grid-template-columns: 1fr repeat(3, minmax(200px, min-content)) 1fr;
   grid-template-rows: repeat(3, 1fr);
   gap: 3.5rem;
-  margin: -8.5%;
-  padding-bottom: 5rem; }
+  margin-top: -150px; }
   @media only screen and (max-width: 70.62rem) {
     .card__container {
       grid-template-columns: repeat(2, minmax(350px, min-content));
@@ -145,7 +144,11 @@ body {
 
 .attribution {
   font-size: 11px;
-  text-align: center; }
+  text-align: center;
+  margin-top: -100px; }
+  @media only screen and (max-width: 70.62rem) {
+    .attribution {
+      margin-top: 20px; } }
 
 .attribution a {
   color: #3e52a3; }
